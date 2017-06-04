@@ -4,11 +4,14 @@
   "description": "Schema and validator for JSON Feed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test"
   },
   "author": "Dan MacTough <danmactough@gmail.com> (http://mact.me/)",
   "license": "MIT",
   "dependencies": {
     "ajv": "^5.1.5"
+  },
+  "devDependencies": {
+    "tap": "^10.3.3"
   }
 }
