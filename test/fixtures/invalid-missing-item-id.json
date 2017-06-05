@@ -1,0 +1,9 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "invalid-missing-item-id",
+  "items": [
+    {
+      "content_text": "this is invalid"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "invalid-missing-version",
+  "items": [
+    {
+      "id": "1",
+      "content_text": "this is invalid"
+    }
+  ]
+}

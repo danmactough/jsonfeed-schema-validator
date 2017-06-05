@@ -1,0 +1,9 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "items": [
+    {
+      "id": "1",
+      "content_text": "this is invalid"
+    }
+  ]
+}
