@@ -1,0 +1,10 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "valid-basic",
+  "items": [
+    {
+      "id": "1",
+      "content_text": "this is valid basic"
+    }
+  ]
+}
