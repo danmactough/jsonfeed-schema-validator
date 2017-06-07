@@ -1,6 +1,6 @@
 {
   "name": "jsonfeed-schema-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schema and validator for JSON Feed",
   "main": "index.js",
   "engines": {
