@@ -1,5 +1,7 @@
 # jsonfeed-schema-validator
 
+[![Build Status](https://travis-ci.org/danmactough/jsonfeed-schema-validator.svg?branch=master)](https://travis-ci.org/danmactough/jsonfeed-schema-validator)
+
 A [JSON Schema](http://json-schema.org/) and schema validator for
 [JSON Feed](https://jsonfeed.org/).
 
