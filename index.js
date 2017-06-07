@@ -1,8 +1,14 @@
 const Ajv = require('ajv');
-const ajv = new Ajv({
+const schema = require('./schema');
+
+function createValidator (options) {
+  const ajv = new Ajv(options);
+  return ajv.compile(schema);
+}
+
+const validate = createValidator({
   allErrors: true,
   extendRefs: 'fail'
 });
-const schema = require('./schema');
-const validate = ajv.compile(schema);
-module.exports = { schema, validate };
+
+module.exports = { schema, validate, createValidator };

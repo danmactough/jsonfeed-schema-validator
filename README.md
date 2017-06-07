@@ -5,6 +5,8 @@ A [JSON Schema](http://json-schema.org/) and schema validator for
 
 ## Usage
 
+### Basic Example
+
 ```js
 // Get the feed you want to validate somehow -- here, we call it `feed`.
 const { validate } = require('jsonfeed-schema-validator');
@@ -21,6 +23,21 @@ else {
   e.validationErrors = validate.errors;
   throw e;
 }
+```
+
+### Create a validator with custom options
+
+Since we use [Ajv](https://github.com/epoberezkin/ajv) to compile and validate
+the schema, we also let you create your own `validate` function using
+whatever [options](https://github.com/epoberezkin/ajv#options) you like.
+
+```js
+const { createValidator } = require('jsonfeed-schema-validator');
+const validate = createValidator({
+  allErrors: false,
+  verbose: true
+});
+const isValid = validate(feed);
 ```
 
 ## License
