@@ -15,10 +15,12 @@ module.exports = {
     },
     home_page_url: {
       type: 'string',
+      format: 'uri',
       description: 'the URL of the resource that the feed describes'
     },
     feed_url: {
       type: 'string',
+      format: 'uri',
       description: 'the URL of the feed, and serves as the unique identifier for the feed'
     },
     description: {
@@ -31,14 +33,17 @@ module.exports = {
     },
     next_url: {
       type: 'string',
+      format: 'uri',
       description: 'the URL of a feed that provides the next n items, where n is determined by the publisher'
     },
     icon: {
       type: 'string',
+      format: 'uri',
       description: 'the URL of an image for the feed suitable to be used in a timeline, much the way an avatar might be used'
     },
     favicon: {
       type: 'string',
+      format: 'uri',
       description: 'the URL of an image for the feed suitable to be used in a source list'
     },
     author: {
@@ -59,7 +64,8 @@ module.exports = {
             type: 'string'
           },
           'url': {
-            type: 'string'
+            type: 'string',
+            format: 'uri'
           }
         },
         required: [ 'type', 'url' ]
@@ -79,6 +85,7 @@ module.exports = {
       properties: {
         url: {
           type: 'string',
+          format: 'uri',
           description: 'specifies the location of the attachment'
         },
         mime_type: {
@@ -109,10 +116,12 @@ module.exports = {
         },
         url: {
           type: 'string',
+          format: 'uri',
           description: 'the URL of a site owned by the author'
         },
         avatar: {
           type: 'string',
+          format: 'uri',
           description: 'the URL for an image for the author'
         }
       },
@@ -131,10 +140,12 @@ module.exports = {
         },
         url: {
           type: 'string',
+          format: 'uri',
           description: 'the URL of the resource described by the item (also referred to as a permalink)'
         },
         external_url: {
           type: 'string',
+          format: 'uri',
           description: 'the URL of a page elsewhere'
         },
         title: {
@@ -154,10 +165,12 @@ module.exports = {
         },
         image: {
           type: 'string',
+          format: 'uri',
           description: 'the URL of the main image for the item'
         },
         banner_image: {
           type: 'string',
+          format: 'uri',
           description: 'the URL of an image to use as a banner'
         },
         date_published: {

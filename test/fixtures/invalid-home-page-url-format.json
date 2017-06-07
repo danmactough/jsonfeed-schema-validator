@@ -1,0 +1,11 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "invalid-home-page-url-format",
+  "home_page_url": "i-am-invalid.com",
+  "items": [
+    {
+      "id": "1",
+      "content_text": "this is invalid home page url format"
+    }
+  ]
+}
