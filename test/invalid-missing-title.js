@@ -1,6 +1,6 @@
 const tap = require('tap');
 const debug = require('debug')('test');
-const { validate } = require('../');
+const validate = require('../').validate;
 const data = require('./fixtures/invalid-missing-title');
 
 tap.notOk(validate(data));
