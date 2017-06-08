@@ -1,5 +1,7 @@
 # jsonfeed-schema-validator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/danmactough/jsonfeed-schema-validator.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/danmactough/jsonfeed-schema-validator.svg?branch=master)](https://travis-ci.org/danmactough/jsonfeed-schema-validator)
 
 A [JSON Schema](http://json-schema.org/) and schema validator for
