@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "debug": "^3.0.0",
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.0",
     "eslint-plugin-json": "^1.2.0",
     "tap": "^10.3.3"
   },
