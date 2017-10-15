@@ -18,7 +18,7 @@
     "ajv": "^5.1.5"
   },
   "devDependencies": {
-    "debug": "^2.6.8",
+    "debug": "^3.0.0",
     "eslint": "^4.1.0",
     "eslint-plugin-json": "^1.2.0",
     "tap": "^10.3.3"
