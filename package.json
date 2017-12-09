@@ -21,7 +21,7 @@
     "debug": "^3.0.0",
     "eslint": "^4.1.0",
     "eslint-plugin-json": "^1.2.0",
-    "tap": "^10.3.3"
+    "tap": "^11.0.0"
   },
   "directories": {
     "test": "test"
