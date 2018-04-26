@@ -4,7 +4,7 @@
   "description": "Schema and validator for JSON Feed",
   "main": "index.js",
   "engines": {
-    "node": "4.x"
+    "node": "10"
   },
   "scripts": {
     "release": "node -e 'level=process.argv[1]||\"patch\";require(\"child_process\").execSync(`npm version ${level}`, { stdio: `inherit` })'",
